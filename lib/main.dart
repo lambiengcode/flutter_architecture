@@ -27,7 +27,7 @@ void main() async {
     MultiProvider(
       providers: [
         ChangeNotifierProvider<UserProvider>(
-          create: (_) => UserProvider(),
+          create: (_) => userProvider,
         ),
       ],
       // Using sizer for responsive

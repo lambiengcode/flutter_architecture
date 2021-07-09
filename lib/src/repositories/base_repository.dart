@@ -81,8 +81,7 @@ class BaseRepository {
   diox.Options getOptions() {
     return diox.Options(
       headers: {
-        'Authorization':
-            'Bearer ${Provider.of<UserProvider>(getx.Get.context!, listen: false).user.accessToken}',
+        'Authorization': 'Bearer ${userProvider.user ?? ''}',
       },
     );
   }
