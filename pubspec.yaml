@@ -34,6 +34,7 @@ dependencies:
   provider: ^5.0.0
   flutter_simple_dependency_injection: ^2.0.0
   dio: ^4.0.0
+  socket_io_client: ^1.0.1
 
 dev_dependencies:
   flutter_test:
